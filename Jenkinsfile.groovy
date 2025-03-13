@@ -27,7 +27,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/bhavana-1997/rockpaperscissors.git'
+                git 'https://github.com/bhavana-1997/RockPaperScissorgame'
             }
         }
 
